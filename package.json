@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "tsx AgentSupervisor.ts",
+    "dev": "tsx AgentSupervisor.ts"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.24",
+    "@langchain/core": "^0.3.66",
+    "@langchain/langgraph": "^0.3.11",
+    "@langchain/openai": "^0.6.2",
+    "@langchain/tavily": "^0.1.4",
+    "canvas": "^3.1.2",
+    "d3": "^7.9.0",
+    "dotenv": "^17.2.0",
+    "tslab": "^1.0.22",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

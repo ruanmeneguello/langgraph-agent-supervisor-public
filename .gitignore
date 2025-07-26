@@ -1,0 +1,20 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Output images
+chart_*.png
+
+# TypeScript build output
+*.js
+*.js.map
+*.d.ts
+
+# VSCode settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db

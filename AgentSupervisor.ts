@@ -148,6 +148,7 @@ const chartTool = new DynamicStructuredTool({
       ctx.fillText(title, width / 2, 10);
     }
     
+    
     // Save chart to file
     const buffer = canvas.toBuffer('image/png');
     const timestamp = Date.now();
